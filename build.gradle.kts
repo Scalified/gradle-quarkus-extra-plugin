@@ -25,7 +25,7 @@
 subprojects {
 
     group = "com.scalified"
-    version = "0.0.2"
+    version = "0.0.3"
 
     repositories {
         mavenCentral()
