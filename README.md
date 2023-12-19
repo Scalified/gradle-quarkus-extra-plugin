@@ -13,15 +13,13 @@ an extra configuration options for the [Quarkus](https://quarkus.io) framework
 
 * [Gradle 8+](https://gradle.org/)
 
-## Applying
+## Usage
 
 ```gradle
 plugins {
   id("com.scalified.plugins.gradle.quarkus-extra") version "$version"
 }
 ```
-
-## Usage
 
 ## Configuration
 
@@ -73,4 +71,5 @@ SOFTWARE.
 
 * [Scalified](http://www.scalified.com)
 * [Scalified Official Facebook Page](https://www.facebook.com/scalified)
-* <a href="mailto:info@scalified.com?subject=[Gradle Quarkus Extra Plugin]: Proposals And Suggestions">Scalified Support</a>
+* <a href="mailto:info@scalified.com?subject=[Gradle Quarkus Extra Plugin]: Proposals And Suggestions">Scalified
+  Support</a>
