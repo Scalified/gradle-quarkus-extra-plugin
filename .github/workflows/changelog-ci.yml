@@ -12,5 +12,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Create Changelog CI Config
+        run: "echo '{\"changelog_type\": \"commit_message\",\"comment_changelog\": true}' > changelog-ci-config.json"
+
       - name: Run Changelog CI
         uses: saadmk11/changelog-ci@v1.1.2
+        with:
+          config_file: changelog-ci-config.json
