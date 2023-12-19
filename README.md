@@ -1,7 +1,7 @@
 # Gradle Quarkus Extra Plugin
 
 [![Build Status](https://github.com/Scalified/gradle-quarkus-extra-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/Scalified/gradle-quarkus-extra-plugin/actions)
-![Changelog CI Status](https://github.com/Scalified/gradle-quarkus-extra-plugin/workflows/Changelog%20CI/badge.svg)(CHANGELOG.md)
+[![Changelog CI Status](https://github.com/Scalified/gradle-quarkus-extra-plugin/workflows/Changelog%20CI/badge.svg)](CHANGELOG.md)
 [![Gradle Plugin Portal](https://img.shields.io/maven-metadata/v?label=Plugin&metadataUrl=https://plugins.gradle.org/m2/com/scalified/plugins/gradle/quarkus-extra/com.scalified.plugins.gradle.quarkus-extra.gradle.plugin/maven-metadata.xml)](https://plugins.gradle.org/plugin/com.scalified.plugins.gradle.quarkus-extra)
 
 ## Description
@@ -17,7 +17,7 @@ an extra configuration options for the [Quarkus](https://quarkus.io) framework
 
 ```gradle
 plugins {
-  id "com.scalified.plugins.gradle.quarkus-extra" version "0.0.1"
+  id "com.scalified.plugins.gradle.quarkus-extra" version "$version"
 }
 ```
 
@@ -73,5 +73,4 @@ SOFTWARE.
 
 * [Scalified](http://www.scalified.com)
 * [Scalified Official Facebook Page](https://www.facebook.com/scalified)
-* <a href="mailto:info@scalified.com?subject=[Gradle Quarkus Extra Plugin]: Proposals And Suggestions">Scalified
-  Support</a>
+* <a href="mailto:info@scalified.com?subject=[Gradle Quarkus Extra Plugin]: Proposals And Suggestions">Scalified Support</a>
